@@ -41,5 +41,22 @@ nav ul button {
     background-attachment: fixed;
 }
 
+.services {
+    display: flex;
+    flex-direction: column;
+}
+
+.services-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20rem;
+    font-size: 2rem;
+}
+
+.services-intro button {
+    padding: 0.5rem 1rem;
+}
+
 
 
