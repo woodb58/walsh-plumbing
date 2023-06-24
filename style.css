@@ -14,10 +14,7 @@ body {
 }
 
 header {
-  position: sticky;
-  top: 0;
   background-color: #ffffff;
-  z-index: 9999;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,7 +59,7 @@ nav ul button {
 
 .hero-content {
   height: 98%;
-  width: 96%;
+  width: 95.5%;
   background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: center;
@@ -96,24 +93,15 @@ nav ul button {
 }
 
 .services {
+  color: white;
   display: flex;
   flex-direction: column;
   background-image: url(./img/wrench_x.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  filter: brightness(60%);
+  filter: brightness(90%);
   border-top: black solid;
-}
-
-.services-intro h1,
-.services-intro p,
-.services-intro button {
-  margin-top: 1.5rem;
-}
-
-.services-intro button {
-  padding: 0.5rem 1rem;
-  background-color: aquamarine;
+  padding: .5rem 2.4rem;
 }
 
 .services-content {
@@ -122,6 +110,7 @@ nav ul button {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 15rem;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .company-info {
@@ -130,11 +119,13 @@ nav ul button {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
+  font-size: 1.7rem;
 }
 
 .services-sub {
   display: flex;
   align-items: center;
+  text-align: center;
   padding: 1rem 1rem;
   font-size: 1.7rem;
 }
@@ -147,5 +138,17 @@ nav ul button {
 
 .installations,
 .sewer {
-  border-right: 1px solid black;
+  border-right: 1px solid rgb(226, 191, 191);
+}
+
+.installations {
+  padding-right: 1rem;
+}
+
+.sewer {
+  padding: 0 1rem;
+}
+
+.repairs {
+  padding-left: 1rem;
 }
