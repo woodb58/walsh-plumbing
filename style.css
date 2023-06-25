@@ -83,13 +83,13 @@ nav ul button {
 .intro p {
   font-size: 1.5rem;
   text-align: center;
-  padding: 1rem 0 .7rem 0;
+  padding: 1rem 0 0.7rem 0;
 }
 
 .intro button {
   background-color: aqua;
   border-radius: 12px;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .services {
@@ -101,7 +101,7 @@ nav ul button {
   background-size: cover;
   filter: brightness(90%);
   border-top: black solid;
-  padding: .5rem 2.4rem;
+  padding: 0.5rem 2.4rem;
 }
 
 .services-content {
@@ -117,9 +117,31 @@ nav ul button {
   width: 80%;
   display: flex;
   align-items: center;
+  text-align: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 1rem 2rem 3rem 2rem;
   font-size: 1.7rem;
+}
+
+.hours {
+  border-right: 1px solid white;
+  padding-right: 16.5rem;
+}
+
+.hours i,
+.hours h3,
+.hours p,
+.phone i,
+.phone h3,
+.phone p {
+  padding-bottom: 1rem;
+}
+
+.phone button {
+  background-color: aqua;
+  font-size: 1rem;
+  border-radius: 12px;
+  padding: 0.5rem 1rem;
 }
 
 .services-sub {
