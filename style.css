@@ -43,6 +43,18 @@ nav ul button {
   font-size: 1rem;
 }
 
+.banner {
+  height: 100vh;
+  display: flex;
+  align-items:first baseline;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+.banner-container img{
+  padding-top: 4rem;
+}
+
 .hero {
   position: relative;
   height: 75vh;
@@ -58,8 +70,8 @@ nav ul button {
 }
 
 .hero-content {
-  height: 98%;
-  width: 95.5%;
+  height: 100%;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: center;
@@ -101,7 +113,7 @@ nav ul button {
   background-size: cover;
   filter: brightness(90%);
   border-top: black solid;
-  padding: 0.5rem 2.4rem;
+  
 }
 
 .services-content {
@@ -126,6 +138,7 @@ nav ul button {
 .hours {
   border-right: 1px solid white;
   padding-right: 16.5rem;
+  
 }
 
 .hours i,
