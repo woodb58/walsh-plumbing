@@ -156,6 +156,11 @@ nav ul button {
   padding: 0.5rem 1rem;
 }
 
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
 .services-sub {
   display: flex;
   align-items: center;
