@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   overflow-x: hidden;
 }
 
@@ -10,7 +11,6 @@ body {
   max-width: 100%;
   padding: 0;
   background-color: black;
-  overflow-x: hidden;
 }
 
 header {
@@ -156,9 +156,18 @@ nav ul button {
   padding: 0.5rem 1rem;
 }
 
+.container {
+  display: grid;
+  place-items: center;
+}
+
 .swiper {
   width: 600px;
   height: 300px;
+}
+
+.img-wrapper {
+  
 }
 
 .services-sub {
