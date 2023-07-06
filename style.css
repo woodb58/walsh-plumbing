@@ -87,8 +87,9 @@ nav ul button {
   padding: 0rem 10rem;
 }
 
-.intro h1 {
+.titles {
   border-bottom: #ffffff solid;
+  overflow: hidden;
 }
 
 .intro p {
@@ -154,16 +155,6 @@ nav ul button {
   padding: 0.5rem 1rem;
 }
 
-.carousel {
-  height: 600px;
-  perspective: 250px;
-}
-
-.carousel .carousel-item {
-  width: 80%;
-  height: 80%;
-}
-
 .services-sub {
   display: flex;
   align-items: center;
@@ -193,4 +184,36 @@ nav ul button {
 
 .repairs {
   padding-left: 1rem;
+}
+
+.about {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem 4rem;
+}
+
+.about p {
+  font-size: 2rem;
+  padding: 1rem 3rem 1rem 3rem;
+}
+
+.carousel {
+  height: 600px;
+  perspective: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.carousel .carousel-item {
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
+  
 }
