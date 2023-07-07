@@ -21,7 +21,9 @@ header {
   padding-bottom: 1rem;
 }
 
-header img {
+.logo {
+  height: 8rem;
+  width: 14rem;
   padding-left: 2rem;
 }
 
