@@ -25,18 +25,20 @@ header img {
   padding-left: 2rem;
 }
 
-nav ul {
+.nav ul {
   display: flex;
   justify-content: center;
   list-style: none;
   font-size: 2rem;
 }
 
-nav ul li {
+.nav ul li {
+  color: rgb(255, 255, 255);
   padding: 0 2rem;
 }
 
-nav ul button {
+.nav ul button {
+  background-color: aqua;
   padding: 0 1rem;
   margin-right: 2rem;
   font-size: 1rem;
@@ -127,16 +129,17 @@ nav ul button {
 .company-info {
   width: 80%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
-  justify-content: space-between;
   padding: 1rem 2rem 3rem 2rem;
   font-size: 1.7rem;
 }
 
-.hours {
-  border-right: 1px solid white;
-  padding-right: 16.5rem;
+.divider {
+  height: 400px;
+  width: 1px;
+  background-color: rgb(255, 255, 255);
 }
 
 .hours i,
@@ -204,6 +207,7 @@ nav ul button {
 
 .carousel {
   height: 600px;
+  width: 800px;
   perspective: 250px;
   display: flex;
   align-items: center;
@@ -216,4 +220,9 @@ nav ul button {
   height: 80%;
   overflow: hidden;
   
+}
+
+#work-carousel {
+  height: 600px;
+  width: 600px;
 }
