@@ -11,15 +11,29 @@
     <title>Walsh Plumbing</title>
   </head>
   <body>
-    <header>
-      <img src="img//logo.png" class="logo" alt="walsh plumbing logo" />
-      <div class="nav">
-        <ul>
-          <li>About</li>
-          <button>call now</button>
+    <!-- <header> -->
+    <nav class="nav-wrapper grey darken-4">
+      <a href="#" class="brand-logo left"
+        ><img src="img//logo.png" class="logo" alt="walsh plumbing logo"
+      /></a>
+      <a href="#" class="sidenav-trigger right" data-target="mobile-links">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+      <div class="container">
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#about">About</a></li>
+          <li><a href="#about">Facebook</a></li>
+          <li><button>Call Now</button></li>
         </ul>
       </div>
-    </header>
+    </nav>
+
+    <ul class="sidenav" id="mobile-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#about">Facebook</a></li>
+      <li><button>Call Now</button></li>
+    </ul>
+   
     <section class="banner">
       <div class="banner-container">
         <img src="img/walsh-banner-logo.png" alt="" />
@@ -68,32 +82,32 @@
 
         <div class="carousel">
           <a class="carousel-item" href="#one!"
-          ><img src="img/review1.png"
-        /></a>
-        <a class="carousel-item" href="#two!"
-          ><img src="img/review2.png"
-        /></a>
-        <a class="carousel-item" href="#three!"
-          ><img src="img/review3.png"
-        /></a>
-        <a class="carousel-item" href="#four!"
-          ><img src="img/review4.png"
-        /></a>
-        <a class="carousel-item" href="#five!"
-          ><img src="img/review5.png"
-        /></a>
-        <a class="carousel-item" href="#five!"
-          ><img src="img/review6.png"
-        /></a>
-        <a class="carousel-item" href="#five!"
-          ><img src="img/review7.png"
-        /></a>
-        <a class="carousel-item" href="#five!"
-          ><img src="img/review8.png"
-        /></a>
-        <a class="carousel-item" href="#five!"
-          ><img src="img/review9.png"
-        /></a>
+            ><img src="img/review1.png"
+          /></a>
+          <a class="carousel-item" href="#two!"
+            ><img src="img/review2.png"
+          /></a>
+          <a class="carousel-item" href="#three!"
+            ><img src="img/review3.png"
+          /></a>
+          <a class="carousel-item" href="#four!"
+            ><img src="img/review4.png"
+          /></a>
+          <a class="carousel-item" href="#five!"
+            ><img src="img/review5.png"
+          /></a>
+          <a class="carousel-item" href="#five!"
+            ><img src="img/review6.png"
+          /></a>
+          <a class="carousel-item" href="#five!"
+            ><img src="img/review7.png"
+          /></a>
+          <a class="carousel-item" href="#five!"
+            ><img src="img/review8.png"
+          /></a>
+          <a class="carousel-item" href="#five!"
+            ><img src="img/review9.png"
+          /></a>
         </div>
 
         <div class="services-sub">
@@ -138,7 +152,7 @@
       </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
       <h1 class="titles">About US</h1>
       <p>
         Over 70 years in business. Walsh Plumbing is A provider of Residential,

@@ -13,23 +13,24 @@ body {
   background-color: rgb(0, 0, 0);
 }
 
-header {
-  background-color: #131212;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 1rem;
+/* nav {
+  position: relative;
+  overflow: visible;
 }
 
 .logo {
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+  z-index: 999;
   height: 8rem;
   width: 14rem;
   padding-left: 2rem;
-}
+} */
 
-.nav ul {
+/* .nav ul {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   list-style: none;
   font-size: 2rem;
 }
@@ -44,7 +45,7 @@ header {
   padding: 0 1rem;
   margin-right: 2rem;
   font-size: 1rem;
-}
+} */
 
 .banner {
   height: 100vh;
@@ -221,7 +222,6 @@ header {
   width: 80%;
   height: 80%;
   overflow: hidden;
-  
 }
 
 #work-carousel {
