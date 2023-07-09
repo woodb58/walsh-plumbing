@@ -12,40 +12,31 @@ body {
   padding: 0;
   background-color: rgb(0, 0, 0);
 }
-
-/* nav {
-  position: relative;
-  overflow: visible;
+nav {
+  height: 6.4rem;
 }
 
 .logo {
-  position: absolute;
-  top: 0.5rem;
-  left: 1rem;
-  z-index: 999;
-  height: 8rem;
+  height: 10rem;
   width: 14rem;
-  padding-left: 2rem;
-} */
+  padding: 0.7rem 0 0 0.8rem;
+}
 
-/* .nav ul {
-  display: flex;
-  justify-content: flex-end;
-  list-style: none;
+.container ul {
+  padding: 2rem;
+}
+
+.container a {
   font-size: 2rem;
+  color: ;
 }
 
-.nav ul li {
-  color: rgb(255, 255, 255);
-  padding: 0 2rem;
+.container button {
+  font-size: 1.5rem;
+  background-color: rgb(55, 177, 249);
+  border-radius: 12px;
+  padding: 0.5rem 1rem;
 }
-
-.nav ul button {
-  background-color: aqua;
-  padding: 0 1rem;
-  margin-right: 2rem;
-  font-size: 1rem;
-} */
 
 .banner {
   height: 100vh;
@@ -104,7 +95,7 @@ body {
 }
 
 .intro button {
-  background-color: aqua;
+  background-color: rgb(55, 177, 249);
   border-radius: 12px;
   padding: 0.5rem 1rem;
 }
@@ -155,7 +146,7 @@ body {
 }
 
 .phone button {
-  background-color: aqua;
+  background-color: rgb(55, 177, 249);
   font-size: 1rem;
   border-radius: 12px;
   padding: 0.5rem 1rem;
