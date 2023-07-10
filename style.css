@@ -22,13 +22,12 @@ nav {
   padding: 0.7rem 0 0 0.8rem;
 }
 
-.container ul {
-  padding: 2rem;
+.container {
+  padding-top: 1.5rem;
 }
 
 .container a {
   font-size: 2rem;
-  color: ;
 }
 
 .container button {
@@ -37,6 +36,36 @@ nav {
   border-radius: 12px;
   padding: 0.5rem 1rem;
 }
+
+.sidenav {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30%;
+  border-radius: 41% 59% 0% 100% / 66% 0% 100% 34%;
+}
+
+.sidenav li {
+  padding: 1.5rem 0rem 0.5rem 0rem;
+}
+
+.sidenav li a {
+  color: rgb(55, 177, 249) !important;
+  font-size: 1.5rem;
+
+}
+
+.sidenav li button a{
+  color: rgb(0, 0, 0) !important;
+  background-color: rgb(55, 177, 249);
+  font-size: 1.5rem;
+  padding: .5rem 1rem;
+  border-radius: 12%;
+  margin-top: 10rem !important;
+
+}
+
 
 .banner {
   height: 100vh;
@@ -51,7 +80,6 @@ nav {
 }
 
 .hero {
-  position: relative;
   height: 75vh;
   width: 100vw;
   background-image: url("img/background3.jpg");
@@ -80,10 +108,10 @@ nav {
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  padding: 0rem 10rem;
+  padding: 0rem 6rem;
 }
 
-.titles {
+.title {
   border-bottom: #ffffff solid;
   overflow: hidden;
 }
@@ -218,4 +246,25 @@ nav {
 #work-carousel {
   height: 600px;
   width: 600px;
+}
+
+@media screen and (max-width: 680px) {
+  .banner {
+    height: 60vh;
+  }
+  .banner img {
+    height: 30rem;
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .banner {
+    height: 50vh;
+  }
+
+  .banner img {
+    height: 20rem;
+    width: 20rem;
+  }
 }

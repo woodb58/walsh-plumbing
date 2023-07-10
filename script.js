@@ -4,7 +4,13 @@ $(document).ready(function(){
 
   
   $(document).ready(function(){
-    $('.sidenav').sidenav();
+    $('.sidenav').sidenav({
+      edge: 'right',
+      draggable: true,
+      inDuration: 500,
+      outDuration: 300,
+      closeOnClick: true
+    });
   });
        
       
