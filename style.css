@@ -366,4 +366,11 @@ nav {
   .intro p {
     font-size: 1rem;
   }
+
+  .about h1 {
+    font-size: 2rem;
+  }
+  .about p {
+    font-size: 1rem;
+  }
 }
