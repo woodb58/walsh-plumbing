@@ -151,11 +151,15 @@ nav {
 .company-info {
   width: 80%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
   padding: 1rem 0 3rem 0;
   font-size: 1.7rem;
+}
+
+.company-info h3 {
+  overflow: hidden;
 }
 
 .divider {
@@ -164,19 +168,11 @@ nav {
   background-color: rgb(255, 255, 255);
 }
 
-.hours i,
-.hours h3,
-.hours p,
-.phone i,
-.phone h3,
-.phone p {
-  padding-bottom: 1rem;
-}
-
 .phone button {
   background-color: rgb(55, 177, 249);
   font-size: 1rem;
   border-radius: 12px;
+  margin-top: .5rem;
   padding: 0.5rem 1rem;
 }
 
@@ -207,7 +203,7 @@ nav {
 }
 
 .services-divider {
-  height: 90vh;
+  height: 60vh;
   width: 1px;
   background-color: rgb(255, 255, 255);
 }
@@ -228,8 +224,12 @@ nav {
   padding: 1rem 3rem 1rem 3rem;
 }
 
+.about h1 {
+  overflow: hidden;
+}
+
 .carousel {
-  height: 600px;
+  height: 800px;
   width: 800px;
   perspective: 250px;
   display: flex;
@@ -244,21 +244,64 @@ nav {
   overflow: hidden;
 }
 
-#work-carousel {
-  height: 600px;
-  width: 600px;
+.hamburger {
+  overflow: hidden;
 }
+
+
+/* <------ Media --------> */
+
 
 @media screen and (max-width: 950px) {
   .services-sub {
     flex-direction: column;
   }
-
-  .services-divider {
-    height: 0px;
-    width: 0px;
+  .services-sub i {
+    padding-bottom: 0;
   }
 
+  .services-sub h5 {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin: 1rem 20rem;
+    overflow: hidden;
+  }
+  
+  .services-divider {
+    display: none;
+  }
+
+  .services-sub {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 1.7rem;
+  }
+
+  .services-sub img {
+    padding-bottom: -5rem;
+  }
+
+  .services-sub p {
+    padding-bottom: 4rem;
+  }
+}
+
+@media screen and (max-width: 780px){
+  .services-sub p {
+    font-size: 1.5rem;
+    padding: 0 10rem 2rem 10rem;
+  }
+
+  .carousel {
+    height: 400px;
+    width: 400px;
+    perspective: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+  }
 }
 
 @media screen and (max-width: 680px) {
@@ -297,6 +340,21 @@ nav {
 
   .company-info {
     font-size: 1.2rem;
+  }
+
+  .services-sub p {
+    font-size: 1.2rem;
+    padding: 0 15rem 2rem 15rem;
+  }
+
+  .carousel {
+    height: 400px;
+    width: 400px;
+    perspective: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
   }
 }
 
