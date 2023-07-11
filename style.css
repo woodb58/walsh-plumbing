@@ -30,7 +30,7 @@ nav {
   font-size: 2rem;
 }
 
-.container button {
+.container button a {
   font-size: 1.5rem;
   background-color: rgb(55, 177, 249);
   border-radius: 12px;
