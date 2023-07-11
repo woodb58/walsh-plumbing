@@ -53,19 +53,16 @@ nav {
 .sidenav li a {
   color: rgb(55, 177, 249) !important;
   font-size: 1.5rem;
-
 }
 
-.sidenav li button a{
+.sidenav li button a {
   color: rgb(0, 0, 0) !important;
   background-color: rgb(55, 177, 249);
   font-size: 1.5rem;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 12%;
   margin-top: 10rem !important;
-
 }
-
 
 .banner {
   height: 100vh;
@@ -103,9 +100,7 @@ nav {
 
 .intro {
   color: white;
-  font-size: 3rem;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   padding: 0rem 6rem;
@@ -122,10 +117,15 @@ nav {
   padding: 1rem 0 0.7rem 0;
 }
 
+.intro button a {
+  color: black;
+}
+
 .intro button {
   background-color: rgb(55, 177, 249);
   border-radius: 12px;
   padding: 0.5rem 1rem;
+  font-size: 1.5rem;
 }
 
 .services {
@@ -144,7 +144,7 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 15rem;
+  padding: 1rem 0;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -154,7 +154,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  padding: 1rem 2rem 3rem 2rem;
+  padding: 1rem 0 3rem 0;
   font-size: 1.7rem;
 }
 
@@ -194,11 +194,6 @@ nav {
   padding-bottom: 1rem;
 }
 
-.installations,
-.sewer {
-  border-right: 1px solid rgb(226, 191, 191);
-}
-
 .installations {
   padding-right: 1rem;
 }
@@ -209,6 +204,12 @@ nav {
 
 .repairs {
   padding-left: 1rem;
+}
+
+.services-divider {
+  height: 90vh;
+  width: 1px;
+  background-color: rgb(255, 255, 255);
 }
 
 .about {
@@ -248,6 +249,18 @@ nav {
   width: 600px;
 }
 
+@media screen and (max-width: 950px) {
+  .services-sub {
+    flex-direction: column;
+  }
+
+  .services-divider {
+    height: 0px;
+    width: 0px;
+  }
+
+}
+
 @media screen and (max-width: 680px) {
   .banner {
     height: 60vh;
@@ -255,6 +268,12 @@ nav {
   .banner img {
     height: 30rem;
     width: 30rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 3rem;
   }
 }
 
@@ -266,5 +285,27 @@ nav {
   .banner img {
     height: 20rem;
     width: 20rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .intro p {
+    font-size: 1.4rem;
+  }
+
+  .company-info {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 1.7rem;
+  }
+
+  .intro p {
+    font-size: 1rem;
   }
 }
