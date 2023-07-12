@@ -57,9 +57,9 @@ nav {
 }
 
 .sidenav button {
-  background-color: rgb(55, 177, 249) ;
+  background-color: rgb(55, 177, 249);
   color: black;
-  padding: .2rem .5rem;
+  padding: 0.2rem 0.5rem;
   border-radius: 12%;
 }
 
@@ -169,7 +169,7 @@ nav {
   color: black;
   font-size: 1rem;
   border-radius: 12px;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   padding: 0.5rem 1rem;
 }
 
@@ -248,9 +248,7 @@ nav {
   overflow: hidden;
 }
 
-
 /* <------ Media --------> */
-
 
 @media screen and (max-width: 950px) {
   .services-sub {
@@ -265,7 +263,7 @@ nav {
     margin: 1rem 20rem;
     overflow: hidden;
   }
-  
+
   .services-divider {
     display: none;
   }
@@ -287,11 +285,15 @@ nav {
   }
 }
 
-@media screen and (max-width: 780px){
-
+@media screen and (max-width: 780px) {
   .hero {
     background-image: url("img/background-small.png");
   }
+
+  .intro {
+    padding-bottom: 2rem;
+  }
+
   .services-sub p {
     font-size: 1.5rem;
     padding: 0 10rem 2rem 10rem;
@@ -316,8 +318,6 @@ nav {
     height: 30rem;
     width: 30rem;
   }
-
-
 }
 
 @media screen and (max-width: 600px) {
@@ -327,7 +327,7 @@ nav {
 }
 
 @media screen and (max-width: 460px) {
-  .sidenav li{
+  .sidenav li {
     padding: 1rem;
   }
 
@@ -373,7 +373,6 @@ nav {
 }
 
 @media screen and (max-width: 400px) {
-
   .banner-container img {
     padding-bottom: 2rem;
   }
