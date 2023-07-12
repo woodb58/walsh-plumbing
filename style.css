@@ -320,7 +320,15 @@ nav {
   }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 460px) {
+  .sidenav li{
+    padding: .5rem;
+  }
+
+  .sidenav li a {
+    font-size: 1rem;
+  }
+
   .banner {
     height: 50vh;
   }
@@ -359,14 +367,6 @@ nav {
 }
 
 @media screen and (max-width: 400px) {
-
-  .sidenav li{
-    padding: .5rem;
-  }
-
-  .sidenav li a {
-    font-size: 1rem;
-  }
 
   .banner-container img {
     padding-bottom: 2rem;
