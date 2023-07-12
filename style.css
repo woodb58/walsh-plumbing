@@ -285,14 +285,14 @@ nav {
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 820px) {
   .hero {
     background-image: url("img/background-small.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    filter: opacity(90%)
+    filter: opacity(90%);
   }
 
   .intro {
