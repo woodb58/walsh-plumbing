@@ -288,6 +288,10 @@ nav {
 }
 
 @media screen and (max-width: 780px){
+
+  .hero {
+    background-image: url("img/background-small.png");
+  }
   .services-sub p {
     font-size: 1.5rem;
     padding: 0 10rem 2rem 10rem;
@@ -312,6 +316,8 @@ nav {
     height: 30rem;
     width: 30rem;
   }
+
+
 }
 
 @media screen and (max-width: 600px) {
@@ -322,7 +328,7 @@ nav {
 
 @media screen and (max-width: 460px) {
   .sidenav li{
-    padding: .5rem;
+    padding: 1rem;
   }
 
   .sidenav li a {
