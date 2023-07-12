@@ -364,6 +364,10 @@ nav {
     padding: .5rem;
   }
 
+  .sidenav li a {
+    font-size: 1rem;
+  }
+
   .banner-container img {
     padding-bottom: 2rem;
   }
