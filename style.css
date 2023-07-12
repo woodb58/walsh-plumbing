@@ -181,7 +181,7 @@ nav {
   font-size: 1.7rem;
 }
 .phone p {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255) !important;
 }
 
 .services-sub i,
