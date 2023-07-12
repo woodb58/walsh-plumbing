@@ -291,7 +291,7 @@ nav {
   }
 
   .intro {
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
   }
 
   .services-sub p {
@@ -381,8 +381,10 @@ nav {
     font-size: 1.7rem;
   }
 
-  .intro p {
+  .intro {
     font-size: 1rem;
+    padding-bottom: 4rem;
+    overflow: hidden;
   }
 
   .about h1 {
