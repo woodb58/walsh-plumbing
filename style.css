@@ -393,4 +393,14 @@ nav {
   .about p {
     font-size: 1rem;
   }
+
+  .carousel {
+    height: 300px;
+    width: 300px;
+    perspective: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+  }
 }
