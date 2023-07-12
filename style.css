@@ -180,6 +180,9 @@ nav {
   padding: 1rem 1rem;
   font-size: 1.7rem;
 }
+.phone p {
+  color: rgb(255, 255, 255);
+}
 
 .services-sub i,
 .services-sub h5,
