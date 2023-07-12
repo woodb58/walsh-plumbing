@@ -387,6 +387,9 @@ nav {
     overflow: hidden;
   }
 
+  .about {
+    padding: 1rem 2rem;
+  }
   .about h1 {
     font-size: 2rem;
   }
