@@ -292,6 +292,7 @@ nav {
 
   .intro {
     padding-bottom: 3rem;
+    overflow: hidden;
   }
 
   .services-sub p {
