@@ -52,16 +52,14 @@ nav {
 
 .sidenav li a {
   color: rgb(55, 177, 249) !important;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  overflow: hidden;
 }
 
-.sidenav li button a {
-  color: rgb(0, 0, 0) !important;
-  background-color: rgb(55, 177, 249);
-  font-size: 1.5rem;
-  padding: 0.5rem 1rem;
+.sidenav button {
+  background-color: rgb(55, 177, 249) ;
+  padding: .2rem .5rem;
   border-radius: 12%;
-  margin-top: 10rem !important;
 }
 
 .banner {
@@ -166,6 +164,10 @@ nav {
   height: 400px;
   width: 1px;
   background-color: rgb(255, 255, 255);
+}
+
+.phone a {
+  color: black;
 }
 
 .phone button {
@@ -359,6 +361,15 @@ nav {
 }
 
 @media screen and (max-width: 400px) {
+
+  .sidenav li{
+    padding: .5rem;
+  }
+
+  .banner-container img {
+    padding-bottom: 2rem;
+  }
+
   .title {
     font-size: 1.7rem;
   }
