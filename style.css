@@ -283,7 +283,7 @@ nav {
 @media screen and (max-width: 820px) {
   .hero {
     background-image: url("img/background-small.png");
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
