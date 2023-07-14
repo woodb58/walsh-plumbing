@@ -290,7 +290,7 @@ nav {
     background-image: url("img/background-small.png");
     background-position: top;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     filter: opacity(90%);
     overflow: hidden;
   }
