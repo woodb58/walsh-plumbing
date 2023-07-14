@@ -290,11 +290,14 @@ nav {
     background-image: url("img/background-small.png");
     background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
+    background-size: auto;
     background-attachment: fixed;
     filter: opacity(90%);
     overflow: hidden;
+  }
+
+  .hero-content {
+    object-fit: cover;
   }
 
   .intro {
