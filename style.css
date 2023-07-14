@@ -298,6 +298,7 @@ nav {
 
   .hero-content {
     object-fit: cover;
+    overflow: hidden;
   }
 
   .intro {
