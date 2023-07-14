@@ -292,6 +292,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     filter: opacity(90%);
+    overflow: hidden;
   }
 
   .intro {
