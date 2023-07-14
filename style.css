@@ -291,7 +291,6 @@ nav {
     background-position: top;
     background-repeat: no-repeat;
     background-size: auto;
-    background-attachment: fixed;
     filter: opacity(90%);
     overflow: hidden;
   }
