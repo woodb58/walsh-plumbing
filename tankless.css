@@ -29,28 +29,40 @@ main {
   font-size: 3rem;
 }
 
+.main_title {
+  display: flex;
+  flex-direction: column;
+}
+
 h1,
 h2 {
   overflow: hidden;
 }
 
 .wisconsin_call {
-    padding-top: 4rem;
+  padding-top: 4rem;
 }
- main p {
+main p {
+  font-size: 2rem;
+}
+
+.pic_right,
+.pic_left {
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+  h1,
+  h2 {
     font-size: 2rem;
- }
+  }
 
-@media screen and (max-width: 700px){
-    h1, h2 {
-        font-size: 2rem;
-    }
+  p {
+    font-size: 1rem;
+  }
 
-    p {
-        font-size: 1rem;
-    }
-
-    ul li {
-        font-size: 2rem;
-    }
+  ul li {
+    font-size: 2rem;
+  }
 }
