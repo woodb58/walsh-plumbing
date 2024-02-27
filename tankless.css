@@ -21,6 +21,10 @@ body {
   border-radius: 0% 0% 0% 100% / 10% 0% 10% 34%;
 }
 
+.fa-bars {
+  padding-right: 3rem;
+}
+
 main {
   flex-direction: column;
   align-items: center;
