@@ -51,7 +51,17 @@ main p, ul, li{
   height: 100%;
 }
 
+.logo {
+  width: 14%;
+  height: 12%;
+}
+
 @media screen and (max-width: 768px) {
+  .logo {
+    width: 14%;
+    height: 14%;
+  }
+  
   main {
     margin: 1rem 3rem 2rem 3rem;
     padding: 0;
@@ -72,6 +82,10 @@ main p, ul, li{
 }
 
 @media screen and (max-width: 600px) {
+  .logo {
+    width: 20%;
+    height: 20%;
+  }
   h1,
   h2 {
     font-size: 2rem;

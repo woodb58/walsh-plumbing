@@ -247,6 +247,7 @@ nav {
 
 .hamburger {
   overflow: hidden;
+  position: sticky;
 }
 
 /* <------ Media --------> */
